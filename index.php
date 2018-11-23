@@ -76,7 +76,7 @@ $Questions = array(
 
     )
 
-    2 => array(
+    4 => array(
 
         'Question' => 'Who was the Greek goddess of Love and Beauty?',
 
@@ -96,43 +96,43 @@ $Questions = array(
 
     )
 
-    2 => array(
+    5 => array(
 
-        'Question' => 'Which planet spins fastest?',
+        'Question' => 'The Pulitzer Prize is best associated with which profession?',
 
         'Answers' => array(
 
-            'A' => 'Jupiter',
+            'A' => 'Archeology',
 
-            'B' => 'Pluto',
+            'B' => 'Astronomy',
 
-            'C' => 'Other',
+            'C' => 'Journalism',
 
-            'D' => 'Earth'
+            'D' => 'Medicine'
 
         ),
 
-        'CorrectAnswer' => 'A'
+        'CorrectAnswer' => 'C'
 
     )
 
-    2 => array(
+    6 => array(
 
-        'Question' => 'Which planet spins fastest?',
+        'Question' => 'Which English striker scored six goals at the 2018 World Cup Finals?',
 
         'Answers' => array(
 
-            'A' => 'Jupiter',
+            'A' => 'David Beckham',
 
-            'B' => 'Pluto',
+            'B' => 'Harry Kane',
 
-            'C' => 'Other',
+            'C' => 'Wayne Rooney',
 
-            'D' => 'Earth'
+            'D' => 'Alex Marshall '
 
         ),
 
-        'CorrectAnswer' => 'A'
+        'CorrectAnswer' => 'B'
 
     )
 
