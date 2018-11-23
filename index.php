@@ -54,7 +54,7 @@ $Questions = array(
 
         'CorrectAnswer' => 'A'
 
-    )
+    ),
 
     3 => array(
 
@@ -74,7 +74,7 @@ $Questions = array(
 
         'CorrectAnswer' => 'D'
 
-    )
+    ),
 
     4 => array(
 
@@ -94,7 +94,7 @@ $Questions = array(
 
         'CorrectAnswer' => 'A'
 
-    )
+    ),
 
     5 => array(
 
@@ -114,7 +114,7 @@ $Questions = array(
 
         'CorrectAnswer' => 'C'
 
-    )
+    ),
 
     6 => array(
 
@@ -134,285 +134,285 @@ $Questions = array(
 
         'CorrectAnswer' => 'B'
 
-    )
+    ),
 
-    2 => array(
+    7 => array(
 
-        'Question' => 'Which planet spins fastest?',
+        'Question' => 'Which US President declared: "Ask not what your country can do for you; ask what you can do for your country?',
 
         'Answers' => array(
 
-            'A' => 'Jupiter',
+            'A' => 'John F Kennedy',
 
-            'B' => 'Pluto',
+            'B' => 'Abraham Lincoln',
 
-            'C' => 'Other',
+            'C' => 'Barack Obama',
 
-            'D' => 'Earth'
+            'D' => 'Donald Trump'
 
         ),
 
         'CorrectAnswer' => 'A'
 
-    )
+    ),
 
-    2 => array(
+    8 => array(
 
-        'Question' => 'Which planet spins fastest?',
+        'Question' => 'Former Russian double agent Sergei Skripal and daughter Yulia were poisoned by which substance?',
 
         'Answers' => array(
 
-            'A' => 'Jupiter',
+            'A' => 'VX (a nerve agent)',
 
-            'B' => 'Pluto',
+            'B' => 'Novichok (a nerve agent)',
 
-            'C' => 'Other',
+            'C' => 'Doom (bug repellent)',
 
-            'D' => 'Earth'
+            'D' => 'Sarun (a nerve agent)'
+
+        ),
+
+        'CorrectAnswer' => 'B'
+
+    ),
+
+    9 => array(
+
+        'Question' => 'The Supreme Court of which asian country de-criminalised homosexuality in September?',
+
+        'Answers' => array(
+
+            'A' => 'South Africa',
+
+            'B' => 'North Korea',
+
+            'C' => 'China',
+
+            'D' => 'India'
+
+        ),
+
+        'CorrectAnswer' => 'D'
+
+    ),
+
+    10 => array(
+
+        'Question' => 'The separatist group ETA announced its dissolution after 40 years of conflict and more than 800 deaths in which country?',
+
+        'Answers' => array(
+
+            'A' => 'Spain',
+
+            'B' => 'Austria',
+
+            'C' => 'Russia',
+
+            'D' => 'Sydney'
 
         ),
 
         'CorrectAnswer' => 'A'
 
-    )
+    ),
 
-    2 => array(
+    11 => array(
 
-        'Question' => 'Which planet spins fastest?',
+        'Question' => 'Which company launched its rocket, the Falcon Heavy, on its maiden flight?',
 
         'Answers' => array(
 
-            'A' => 'Jupiter',
+            'A' => 'PPC',
 
-            'B' => 'Pluto',
+            'B' => 'ZuluX',
 
-            'C' => 'Other',
+            'C' => 'SpaceX',
 
-            'D' => 'Earth'
+            'D' => 'MarsX'
+
+        ),
+
+        'CorrectAnswer' => 'C'
+
+    ),
+
+    12 => array(
+
+        'Question' => 'Cinemas open in Saudi Arabia for the first time since 1983, but which was the first film to be shown?',
+
+        'Answers' => array(
+
+            'A' => 'Black Panther',
+
+            'B' => 'Wonder Woman',
+
+            'C' => 'Spiderman Homecoming',
+
+            'D' => 'Venom'
 
         ),
 
         'CorrectAnswer' => 'A'
 
-    )
+    ),
 
-    2 => array(
+    13 => array(
 
-        'Question' => 'Which planet spins fastest?',
+        'Question' => 'Which tennis playing sister is oldest; Venus or Serena Williams?',
 
         'Answers' => array(
 
-            'A' => 'Jupiter',
+            'A' => 'Pumlani Williams',
 
-            'B' => 'Pluto',
+            'B' => 'Venus Wiliams',
 
-            'C' => 'Other',
+            'C' => 'Serena Williiams',
 
-            'D' => 'Earth'
+            'D' => 'Venus Williams'
+
+        ),
+
+        'CorrectAnswer' => 'D'
+
+    ),
+
+    14 => array(
+
+        'Question' => 'William Railton is best known as the designer of which London monument?',
+
+        'Answers' => array(
+
+            'A' => 'London Pride',
+
+            'B' => "Nelson's Column",
+
+            'C' => 'Battle of Britannia Monument',
+
+            'D' => 'The Versaille'
+
+        ),
+
+        'CorrectAnswer' => 'B'
+
+    ),
+
+    15 => array(
+
+        'Question' => "Which Formula 1 racing team is known as 'The Prancing Horse'?",
+
+        'Answers' => array(
+
+            'A' => 'Lamborghini',
+
+            'B' => 'Suzuki',
+
+            'C' => 'All of the above',
+
+            'D' => 'Ferrari'
+
+        ),
+
+        'CorrectAnswer' => 'D'
+
+    ),
+
+    16 => array(
+
+        'Question' => "The phrase 'Eddie Ate Dynamite, Good Bye Eddie' is a Mnemonic for helping to remember how to play which instrument?",
+
+        'Answers' => array(
+
+            'A' => 'Piano',
+
+            'B' => 'Guitar',
+
+            'C' => 'Drums',
+
+            'D' => 'Sitar'
+
+        ),
+
+        'CorrectAnswer' => 'B'
+
+    ),
+
+    17 => array(
+
+        'Question' => 'Marais, the Latin Quarter and Saint Germain are areas within which European captial city?',
+
+        'Answers' => array(
+
+            'A' => 'Luxemborg',
+
+            'B' => 'Paris',
+
+            'C' => 'Berlin',
+
+            'D' => 'Barça'
+
+        ),
+
+        'CorrectAnswer' => 'B'
+
+    ),
+
+    18 => array(
+
+        'Question' => 'Which is the third sign of the Zodiac to be associated with water, the other two being Pisces and Cancer?',
+
+        'Answers' => array(
+
+            'A' => 'Leo',
+
+            'B' => 'Taurus',
+
+            'C' => 'Pisces',
+
+            'D' => 'Scorpio'
+
+        ),
+
+        'CorrectAnswer' => 'D'
+
+    ),
+
+    19 => array(
+
+        'Question' => 'Which US comedian became the first person since Billy Crystal to host two Academy Award ceremonies in consecutive years in 2018?',
+
+        'Answers' => array(
+
+            'A' => 'Jimmy Kimmel',
+
+            'B' => 'Trevor Noah',
+
+            'C' => 'Kevin Hart',
+
+            'D' => 'Chris Rock'
 
         ),
 
         'CorrectAnswer' => 'A'
 
-    )
+    ),
 
-    2 => array(
+    20 => array(
 
-        'Question' => 'Which planet spins fastest?',
-
-        'Answers' => array(
-
-            'A' => 'Jupiter',
-
-            'B' => 'Pluto',
-
-            'C' => 'Other',
-
-            'D' => 'Earth'
-
-        ),
-
-        'CorrectAnswer' => 'A'
-
-    )
-
-    2 => array(
-
-        'Question' => 'Which planet spins fastest?',
+        'Question' => 'Businessman Jack Ma founded which Chinese e-commerce company in 1999?',
 
         'Answers' => array(
 
-            'A' => 'Jupiter',
+            'A' => 'Samsung',
 
-            'B' => 'Pluto',
+            'B' => 'Huawei',
 
-            'C' => 'Other',
+            'C' => 'Alibaba',
 
-            'D' => 'Earth'
-
-        ),
-
-        'CorrectAnswer' => 'A'
-
-    )
-
-    2 => array(
-
-        'Question' => 'Which planet spins fastest?',
-
-        'Answers' => array(
-
-            'A' => 'Jupiter',
-
-            'B' => 'Pluto',
-
-            'C' => 'Other',
-
-            'D' => 'Earth'
+            'D' => 'ZTE'
 
         ),
 
-        'CorrectAnswer' => 'A'
-
-    )
-
-    2 => array(
-
-        'Question' => 'Which planet spins fastest?',
-
-        'Answers' => array(
-
-            'A' => 'Jupiter',
-
-            'B' => 'Pluto',
-
-            'C' => 'Other',
-
-            'D' => 'Earth'
-
-        ),
-
-        'CorrectAnswer' => 'A'
-
-    )
-
-    2 => array(
-
-        'Question' => 'Which planet spins fastest?',
-
-        'Answers' => array(
-
-            'A' => 'Jupiter',
-
-            'B' => 'Pluto',
-
-            'C' => 'Other',
-
-            'D' => 'Earth'
-
-        ),
-
-        'CorrectAnswer' => 'A'
-
-    )
-
-    2 => array(
-
-        'Question' => 'Which planet spins fastest?',
-
-        'Answers' => array(
-
-            'A' => 'Jupiter',
-
-            'B' => 'Pluto',
-
-            'C' => 'Other',
-
-            'D' => 'Earth'
-
-        ),
-
-        'CorrectAnswer' => 'A'
-
-    )
-
-    2 => array(
-
-        'Question' => 'Which planet spins fastest?',
-
-        'Answers' => array(
-
-            'A' => 'Jupiter',
-
-            'B' => 'Pluto',
-
-            'C' => 'Other',
-
-            'D' => 'Earth'
-
-        ),
-
-        'CorrectAnswer' => 'A'
-
-    )
-
-    2 => array(
-
-        'Question' => 'Which planet spins fastest?',
-
-        'Answers' => array(
-
-            'A' => 'Jupiter',
-
-            'B' => 'Pluto',
-
-            'C' => 'Other',
-
-            'D' => 'Earth'
-
-        ),
-
-        'CorrectAnswer' => 'A'
-
-    )
-
-    2 => array(
-
-        'Question' => 'Which planet spins fastest?',
-
-        'Answers' => array(
-
-            'A' => 'Jupiter',
-
-            'B' => 'Pluto',
-
-            'C' => 'Other',
-
-            'D' => 'Earth'
-
-        ),
-
-        'CorrectAnswer' => 'A'
-
-    )
-
-    2 => array(
-
-        'Question' => 'Which planet spins fastest?',
-
-        'Answers' => array(
-
-            'A' => 'Jupiter',
-
-            'B' => 'Pluto',
-
-            'C' => 'Other',
-
-            'D' => 'Earth'
-
-        ),
-
-        'CorrectAnswer' => 'A'
+        'CorrectAnswer' => 'C'
 
     )
 
