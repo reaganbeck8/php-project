@@ -5,11 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Quiz Yourself!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<<<<<<< HEAD
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-=======
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
->>>>>>> d6645c639c254e6f175d14ade877c839b1e24862
     <script src="main.js"></script>
 </head>
 <body>
@@ -422,7 +418,7 @@ $Questions = array(
 
 );
 
-
+$total = 0;
 if (isset($_POST['answers'])){
 
     $Answers = $_POST['answers']; 
@@ -443,10 +439,8 @@ if (isset($_POST['answers'])){
         echo '<span style="color: red;">'.$Value['Answers'][$Answers[$QuestionNo]].'</span>'; 
 
         } else {
-               
-            
 
-        echo '<span style="color: green;">'.$Value['Answers'][$Answers[$QuestionNo]].'</span>'; 
+            $total++;  
 
         }
 
@@ -454,6 +448,17 @@ if (isset($_POST['answers'])){
       
 
     }
+    echo "You got $total /20";
+    echo " ";
+        if ($total <= 10) {
+            echo "You suck!, Try Again!";
+        };
+        if ($total <= 15) {
+            echo "You scored average results!";
+        };
+        if ($total > 15) {
+            echo "Excellent! Are you perhaps related to Einstein?";
+        };
 
 } else {
 
