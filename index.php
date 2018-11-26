@@ -428,15 +428,10 @@ if (isset($_POST['answers'])){
 
 
     foreach ($Questions as $QuestionNo => $Value){
-
-      
-
-        echo $Value['Question'].'<br />';
-
-    
+        
         if ($Answers[$QuestionNo] != $Value['CorrectAnswer']){
                 
-        echo '<span style="color: red;">'.$Value['Answers'][$Answers[$QuestionNo]].'</span>'; 
+        
 
         } else {
 
