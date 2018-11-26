@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Quiz Yourself!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+<<<<<<< HEAD
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+=======
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+>>>>>>> d6645c639c254e6f175d14ade877c839b1e24862
     <script src="main.js"></script>
 </head>
 <body>
@@ -433,13 +437,13 @@ if (isset($_POST['answers'])){
 
         echo $Value['Question'].'<br />';
 
-        // $total = 0;
+    
         if ($Answers[$QuestionNo] != $Value['CorrectAnswer']){
                 
         echo '<span style="color: red;">'.$Value['Answers'][$Answers[$QuestionNo]].'</span>'; 
 
         } else {
-                // $total++;
+               
             
 
         echo '<span style="color: green;">'.$Value['Answers'][$Answers[$QuestionNo]].'</span>'; 
