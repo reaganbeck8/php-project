@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Quiz Yourself!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <script src="main.js"></script>
 </head>
 <body>
@@ -433,18 +433,21 @@ if (isset($_POST['answers'])){
 
         echo $Value['Question'].'<br />';
 
-
+        // $total = 0;
         if ($Answers[$QuestionNo] != $Value['CorrectAnswer']){
-
-            echo '<span style="color: red;">'.$Value['Answers'][$Answers[$QuestionNo]].'</span>'; 
+                
+        echo '<span style="color: red;">'.$Value['Answers'][$Answers[$QuestionNo]].'</span>'; 
 
         } else {
+                // $total++;
+            
 
-            echo '<span style="color: green;">'.$Value['Answers'][$Answers[$QuestionNo]].'</span>'; 
+        echo '<span style="color: green;">'.$Value['Answers'][$Answers[$QuestionNo]].'</span>'; 
 
         }
 
         echo '<br /><hr>';
+      
 
     }
 
@@ -454,11 +457,18 @@ if (isset($_POST['answers'])){
 
     <form action="index.php" method="post" id="quiz">
 
+<section class="hero is-success is-fullheight is-bold" id="particles-js">
+    <article class="hero-body is-primary ">
+        <h2 class="title is-1">Quiz Yourself!</h2>
+    </article>
+</section>
     <?php foreach ($Questions as $QuestionNo => $Value){ ?>
 
-    <li>
+   
 
-        <h3><?php echo $Value['Question']; ?></h3>
+    <li class="box">
+
+        <h3 class=""><?php echo $Value['Question']; ?></h3>
 
         <?php 
 
@@ -482,14 +492,132 @@ if (isset($_POST['answers'])){
 
     <?php } ?>
 
-    <input type="submit" value="Submit Quiz" />
-
+    <input type="submit" value="Submit Quiz" class="button is-success is-normal is-hovered"/>
+ 
     </form>
 
 <?php 
 
 }
 
+   
+
 ?>
-</body>
+<script type="text/javascript">
+
+particlesJS("particles-js",<strong>{
+  "particles": {
+    "number": {
+      "value": 100,
+      "density": {
+        "enable": true,
+        "value_area": 833.451405615796
+      }
+    },
+    "color": {
+      "value": "#8eff00"
+    },
+    "shape": {
+      "type": "star",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 7
+      },
+      "image": {
+        "src": "http://wiki.lexisnexis.com/academic/images/f/fb/Itunes_podcast_icon_300.jpg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.5,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 8.33451405615796,
+      "random": true,
+      "anim": {
+        "enable": true,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": false,
+      "distance": 150,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 14,
+      "direction": "top-left",
+      "random": false,
+      "straight": true,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": false,
+        "mode": "grab"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "repulse"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 200,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+}</strong>);
+
+
+
+</script>
+    </body>
 </html>
