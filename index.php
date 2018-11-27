@@ -5,11 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Quiz Yourself!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<<<<<<< HEAD
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-=======
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
->>>>>>> d6645c639c254e6f175d14ade877c839b1e24862
+    <link rel="stylesheet" href="css/styles.css">
     <script src="main.js"></script>
 </head>
 <body>
@@ -17,7 +14,7 @@
 
 <?php 
 
-
+// This multi-dimensional array that contains all the qustions and answers to the quiz
 $Questions = array(
 
     1 => array(
@@ -422,7 +419,7 @@ $Questions = array(
 
 );
 
-
+$total = 0;
 if (isset($_POST['answers'])){
 
     $Answers = $_POST['answers']; 
@@ -430,45 +427,53 @@ if (isset($_POST['answers'])){
 
   
 
+//This loop checks the answer to see if it is correct, if it is correct then the total will incremented by one
 
-    foreach ($Questions as $QuestionNo => $Value){
-
-      
-
-        echo $Value['Question'].'<br />';
-
-    
-        if ($Answers[$QuestionNo] != $Value['CorrectAnswer']){
+    foreach ($Questions as $QuestionNumber => $Value){
+        
+        if ($Answers[$QuestionNumber] != $Value['CorrectAnswer']){
                 
-        echo '<span style="color: red;">'.$Value['Answers'][$Answers[$QuestionNo]].'</span>'; 
+            $total = $total;
 
         } else {
-               
-            
 
-        echo '<span style="color: green;">'.$Value['Answers'][$Answers[$QuestionNo]].'</span>'; 
+            $total++;  
 
         }
 
-        echo '<br /><hr>';
-      
-
     }
+
+//Once your quiz has been submitted, the conditional statements will respond according to your result    
+    echo "You got $total /20";
+    echo " ";
+        if ($total <= 10) {
+            echo "<p>You should try harder next time :( </p>
+            </br>";
+            echo '<img src="images/goldfish.jpg" />';
+        }; 
+        if ($total > 10 && $total < 15) {
+            echo "<p>You scored average results!</p>";
+        };
+        if ($total > 15) {
+            echo "<p>Excellent! Are you perhaps related to Einstein?</p>";
+        };
 
 } else {
 
+// The form starts here, the questions and possible answers are displayed one by one using a foreach loop
 ?>
 
-    <form action="index.php" method="post" id="quiz">
+    <form action="index.php" method="post" id="quiz" class="form">
 
-<section class="hero is-success is-fullheight is-bold" id="particles-js">
-    <article class="hero-body is-primary ">
-        <h2 class="title is-1">Quiz Yourself!</h2>
-    </article>
-</section>
-    <?php foreach ($Questions as $QuestionNo => $Value){ ?>
+        <section class="hero is-fullheight is-bold" ">
+            <article class="hero-body is-primary ">
+                <h2 class="title is-1" id="background">Quiz Yourself!</h2><br/>
+                <!-- <h2 class="title is-subtitle" id="background">Quiz Yourself!</h2> -->
+            </article>
+        </section>
 
-   
+
+    <?php foreach ($Questions as $QuestionNumber => $Value){ ?>
 
     <li class="box">
 
@@ -478,13 +483,13 @@ if (isset($_POST['answers'])){
 
             foreach ($Value['Answers'] as $Letter => $Answer){ 
 
-            $Label = 'question-'.$QuestionNo.'-answers-'.$Letter;
+            $Label = 'question-'.$QuestionNumber.'-answers-'.$Letter;
 
         ?>
 
         <div>
 
-            <input type="radio" name="answers[<?php echo $QuestionNo; ?>]" id="<?php echo $Label; ?>" value="<?php echo $Letter; ?>" />
+            <input type="radio" name="answers[<?php echo $QuestionNumber; ?>]" id="<?php echo $Label; ?>" value="<?php echo $Letter; ?>" required/>
 
             <label for="<?php echo $Label; ?>"><?php echo $Letter; ?>) <?php echo $Answer; ?> </label>
 
@@ -503,8 +508,6 @@ if (isset($_POST['answers'])){
 <?php 
 
 }
-
-   
 
 ?>
     </body>
