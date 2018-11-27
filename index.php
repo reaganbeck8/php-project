@@ -463,18 +463,18 @@ if (isset($_POST['answers'])){
 // The form starts here, the questions and possible answers are displayed one by one using a foreach loop
 ?>
 
+</section>
     <form action="index.php" method="post" id="quiz" class="form">
 
-        <section class="hero is-fullheight is-bold" ">
-            <article class="hero-body is-primary ">
-                <h2 class="title is-1" id="background">Quiz Yourself!</h2><br/>
-                <!-- <h2 class="title is-subtitle" id="background">Quiz Yourself!</h2> -->
-            </article>
+        <section class="hero is-fullheight is-bold">
+            <div class="hero-body">
+                <h1 class="title" id="background">General Knowlege Quiz!</h1>
+            </div>
         </section>
 
 
     <?php foreach ($Questions as $QuestionNumber => $Value){ ?>
-
+<div class="container">
     <li class="box">
 
         <h3 class=""><?php echo $Value['Question']; ?></h3>
@@ -510,5 +510,6 @@ if (isset($_POST['answers'])){
 }
 
 ?>
+        </div>
     </body>
 </html>
