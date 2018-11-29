@@ -15,7 +15,7 @@
         >image-2
 index.php
 ```
-# Download the necessary software needed for developing what is needed
+# Download the necessary software needed for building the project
 
 |*Software*| `What it is` | `Where to download`|
 |--------|:----------:|------------------|
