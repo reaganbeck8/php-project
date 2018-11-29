@@ -1,6 +1,6 @@
 # Welcome to my repository!
 
-##The purpose for this repo was to create a quiz with php and demonstrate the use of loops to check/validate answers and tally a total of all the correct answers
+## The purpose for this repo was to create a quiz with php and demonstrate the use of loops to check/validate answers and tally a total of all the correct answers
 
 ### Preparation:
 
@@ -25,7 +25,9 @@ index.php
 |Xampp   |        |<a href="https://www.apachefriends.org/download.html">Xamp Download for MacOsx</a>|
 
 
+## How to set up a virtual host in wamp
 
+<a href="https://gist.github.com/bramus/4f79972b1927ffb9b1f8">Right-Click and open this link in a new tab</a>
 
 > We were tasked to create a form and by using only loops for logic, we needed to check our answers. This was the first challenge within creating this project. I got around it by first plotting what was needed to be done and the logic behind it. Thus the use of:
 
