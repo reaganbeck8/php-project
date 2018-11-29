@@ -1,5 +1,9 @@
 # Welcome to my repository!
 
+You can view this project live here:
+
+https://reaganbeck.000webhostapp.com/index.php
+
 ## The purpose for this repo was to create a quiz with php and demonstrate the use of loops to check/validate answers and tally a total of all the correct answers
 
 ### Preparation:
