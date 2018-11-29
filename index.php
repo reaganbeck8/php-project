@@ -452,7 +452,8 @@ if (isset($_POST['answers'])){
         <h3 class=""><?php echo $Value['Question']; ?></h3>
 
         <?php 
-// This is saying that for each of the values of the possible answers that it should assign a letter to it as it was written within the arrays
+// This is saying that for each of the values of the possible answers that it should assign a letter to it as it was written within the arrays\
+// [This is not displayed to the user, but runs in the backend for the purpose of outputting all the possible answers]
 
             foreach ($Value['Answers'] as $Letter => $Answer){ 
 
@@ -461,9 +462,10 @@ if (isset($_POST['answers'])){
         ?>
 
         <div>
-r
-            <input type="radio" name="answers[<?php echo $QuestionNumber; ?>]" id="<?php echo $Label; ?>" value="<?php echo $Letter; ?>" required/>
+<!-- Radio button with the relevent naming conventions and integration of php with name and value's as well as id's -->
 
+            <input type="radio" name="answers[<?php echo $QuestionNumber; ?>]" id="<?php echo $Label; ?>" value="<?php echo $Letter; ?>" required/>
+<!-- A label gets created that contains a letter as well as a possible answer [This is what is displayed to the user] -->
             <label for="<?php echo $Label; ?>"><?php echo $Letter; ?>) <?php echo $Answer; ?> </label>
 
         </div>
@@ -473,6 +475,7 @@ r
     </li>
 
     <?php } ?>
+<!-- This is my submit button -->
 
     <input type="submit" value="Submit Quiz" class="button is-success is-normal is-hovered"/>
     <br>

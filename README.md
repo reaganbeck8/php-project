@@ -29,7 +29,7 @@ index.php
 
 <a href="https://gist.github.com/bramus/4f79972b1927ffb9b1f8">Right-Click and open this link in a new tab</a>
 
-# What was needed to create this project?
+# What knowledge was needed to create this project?
 
 *Take a Look below*
 
