@@ -461,7 +461,7 @@ if (isset($_POST['answers'])){
         ?>
 
         <div>
-
+r
             <input type="radio" name="answers[<?php echo $QuestionNumber; ?>]" id="<?php echo $Label; ?>" value="<?php echo $Letter; ?>" required/>
 
             <label for="<?php echo $Label; ?>"><?php echo $Letter; ?>) <?php echo $Answer; ?> </label>
