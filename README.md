@@ -51,6 +51,7 @@ The dimension of an array indicates the number of indices you need to select an 
 ```
 
 2. PHP Conditional Statements
+
 Very often when you write code, you want to perform different actions for different conditions. You can use conditional statements in your code to do this.
 
 In PHP we have the following conditional statements:
@@ -61,6 +62,7 @@ In PHP we have the following conditional statements:
     
 ```
 3. The PHP foreach Loop
+
 The foreach loop works only on arrays, and is used to loop through each key/value pair in an array.
 
 ```
