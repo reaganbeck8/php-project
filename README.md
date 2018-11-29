@@ -20,7 +20,7 @@ index.php
 |*Software*| `What it is` | `Where to download`|
 |--------|:----------:|------------------|
 |vsCode  |Text Editor |<a href="https://code.visualstudio.com/download">VsCode Download</a>|
-|Wamp    |Server Hosting|<a href="www.wampserver.com/en/">Wamp Download for Windows</a>|
+|Wamp    |Server Hosting|<a href="https://sourceforge.net/projects/wampserver/">Wamp Download for Windows</a>|
 |Lamp    |        |<a href="https://bitnami.com/stack/lamp/installer">Lamp Download for Linux</a>|
 |Xampp   |        |<a href="https://www.apachefriends.org/download.html">Xamp Download for MacOsx</a>|
 
