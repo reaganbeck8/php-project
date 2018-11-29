@@ -74,3 +74,5 @@ For every loop iteration, the value of the current array element is assigned to 
 
 
 __Most of the information provided here could be found on <a href="https://www.w3schools.com/php/" target="_blank">W3Schools</a>__
+
+If you would like to create a ReadMe like this using Proper Markdown, then right-click <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Here</a> and open it up in a new tab.
