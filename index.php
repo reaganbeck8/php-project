@@ -17,9 +17,7 @@
 // This multi-dimensional array that contains all the qustions and answers to the quiz
 $Questions = array(
 
-    1 => array(
-
-        'Question' => 'As of 2018, the five tallest buildings in the United States are all located in New York and which other city?',
+    1 => array( 'Question' => 'As of 2018, the five tallest buildings in the United States are all located in New York and which other city?',
 
         'Answers' => array(
 
@@ -37,9 +35,7 @@ $Questions = array(
 
     ),
 
-    2 => array(
-
-        'Question' => 'Which planet spins fastest?',
+    2 => array( 'Question' => 'Which planet spins fastest?',
 
         'Answers' => array(
 
@@ -57,9 +53,7 @@ $Questions = array(
 
     ),
 
-    3 => array(
-
-        'Question' => 'Which British actor played Loki in Avengers Assemble and Jonathan Pine in The Night Manager?',
+    3 => array( 'Question' => 'Which British actor played Loki in Avengers Assemble and Jonathan Pine in The Night Manager?',
 
         'Answers' => array(
 
@@ -77,9 +71,7 @@ $Questions = array(
 
     ),
 
-    4 => array(
-
-        'Question' => 'Who was the Greek goddess of Love and Beauty?',
+    4 => array( 'Question' => 'Who was the Greek goddess of Love and Beauty?',
 
         'Answers' => array(
 
@@ -93,13 +85,11 @@ $Questions = array(
 
         ),
 
-        'CorrectAnswer' => 'A'
+        'CorrectAnswer' => 'C'
 
     ),
 
-    5 => array(
-
-        'Question' => 'The Pulitzer Prize is best associated with which profession?',
+    5 => array( 'Question' => 'The Pulitzer Prize is best associated with which profession?',
 
         'Answers' => array(
 
@@ -117,9 +107,7 @@ $Questions = array(
 
     ),
 
-    6 => array(
-
-        'Question' => 'Which English striker scored six goals at the 2018 World Cup Finals?',
+    6 => array( 'Question' => 'Which English striker scored six goals at the 2018 World Cup Finals?',
 
         'Answers' => array(
 
@@ -137,9 +125,7 @@ $Questions = array(
 
     ),
 
-    7 => array(
-
-        'Question' => 'Which US President declared: "Ask not what your country can do for you; ask what you can do for your country?',
+    7 => array( 'Question' => 'Which US President declared: "Ask not what your country can do for you; ask what you can do for your country?',
 
         'Answers' => array(
 
@@ -157,9 +143,7 @@ $Questions = array(
 
     ),
 
-    8 => array(
-
-        'Question' => 'Former Russian double agent Sergei Skripal and daughter Yulia were poisoned by which substance?',
+    8 => array( 'Question' => 'Former Russian double agent Sergei Skripal and daughter Yulia were poisoned by which substance?',
 
         'Answers' => array(
 
@@ -177,9 +161,7 @@ $Questions = array(
 
     ),
 
-    9 => array(
-
-        'Question' => 'The Supreme Court of which asian country de-criminalised homosexuality in September?',
+    9 => array( 'Question' => 'The Supreme Court of which asian country de-criminalised homosexuality in September?',
 
         'Answers' => array(
 
@@ -197,9 +179,7 @@ $Questions = array(
 
     ),
 
-    10 => array(
-
-        'Question' => 'The separatist group ETA announced its dissolution after 40 years of conflict and more than 800 deaths in which country?',
+    10 => array( 'Question' => 'The separatist group ETA announced its dissolution after 40 years of conflict and more than 800 deaths in which country?',
 
         'Answers' => array(
 
@@ -217,9 +197,7 @@ $Questions = array(
 
     ),
 
-    11 => array(
-
-        'Question' => 'Which company launched its rocket, the Falcon Heavy, on its maiden flight?',
+    11 => array( 'Question' => 'Which company launched its rocket, the Falcon Heavy, on its maiden flight?',
 
         'Answers' => array(
 
@@ -237,9 +215,7 @@ $Questions = array(
 
     ),
 
-    12 => array(
-
-        'Question' => 'Cinemas open in Saudi Arabia for the first time since 1983, but which was the first film to be shown?',
+    12 => array( 'Question' => 'Cinemas open in Saudi Arabia for the first time since 1983, but which was the first film to be shown?',
 
         'Answers' => array(
 
@@ -257,9 +233,7 @@ $Questions = array(
 
     ),
 
-    13 => array(
-
-        'Question' => 'Which tennis playing sister is oldest; Venus or Serena Williams?',
+    13 => array( 'Question' => 'Which tennis playing sister is oldest; Venus or Serena Williams?',
 
         'Answers' => array(
 
@@ -277,9 +251,7 @@ $Questions = array(
 
     ),
 
-    14 => array(
-
-        'Question' => 'William Railton is best known as the designer of which London monument?',
+    14 => array( 'Question' => 'William Railton is best known as the designer of which London monument?',
 
         'Answers' => array(
 
@@ -297,9 +269,7 @@ $Questions = array(
 
     ),
 
-    15 => array(
-
-        'Question' => "Which Formula 1 racing team is known as 'The Prancing Horse'?",
+    15 => array( 'Question' => "Which Formula 1 racing team is known as 'The Prancing Horse'?",
 
         'Answers' => array(
 
@@ -317,9 +287,7 @@ $Questions = array(
 
     ),
 
-    16 => array(
-
-        'Question' => "The phrase 'Eddie Ate Dynamite, Good Bye Eddie' is a Mnemonic for helping to remember how to play which instrument?",
+    16 => array( 'Question' => "The phrase 'Eddie Ate Dynamite, Good Bye Eddie' is a Mnemonic for helping to remember how to play which instrument?",
 
         'Answers' => array(
 
@@ -337,9 +305,7 @@ $Questions = array(
 
     ),
 
-    17 => array(
-
-        'Question' => 'Marais, the Latin Quarter and Saint Germain are areas within which European captial city?',
+    17 => array( 'Question' => 'Marais, the Latin Quarter and Saint Germain are areas within which European captial city?',
 
         'Answers' => array(
 
@@ -357,9 +323,7 @@ $Questions = array(
 
     ),
 
-    18 => array(
-
-        'Question' => 'Which is the third sign of the Zodiac to be associated with water, the other two being Pisces and Cancer?',
+    18 => array( 'Question' => 'Which is the third sign of the Zodiac to be associated with water, the other two being Pisces and Cancer?',
 
         'Answers' => array(
 
@@ -377,9 +341,7 @@ $Questions = array(
 
     ),
 
-    19 => array(
-
-        'Question' => 'Which US comedian became the first person since Billy Crystal to host two Academy Award ceremonies in consecutive years in 2018?',
+    19 => array( 'Question' => 'Which US comedian became the first person since Billy Crystal to host two Academy Award ceremonies in consecutive years in 2018?',
 
         'Answers' => array(
 
@@ -397,9 +359,7 @@ $Questions = array(
 
     ),
 
-    20 => array(
-
-        'Question' => 'Businessman Jack Ma founded which Chinese e-commerce company in 1999?',
+    20 => array( 'Question' => 'Businessman Jack Ma founded which Chinese e-commerce company in 1999?',
 
         'Answers' => array(
 
@@ -464,22 +424,35 @@ if (isset($_POST['answers'])){
 ?>
 
 </section>
+<!-- This is where the landing page of the form starts-->
+
     <form action="index.php" method="post" id="quiz" class="form">
 
         <section class="hero is-fullheight is-bold">
+
             <div class="hero-body">
                 <h1 class="title" id="background">General Knowlege Quiz!</h1>
             </div>
+        
         </section>
 
+    <br>
 
-    <?php foreach ($Questions as $QuestionNumber => $Value){ ?>
+    <?php
+    // This foreach loop outputs each question as well as the four possible answers to the questions through the use of radio buttons
+
+        foreach ($Questions as $QuestionNumber => $Value){ 
+              
+    ?>
+<!-- This is where the questions and possible answers are marked up and within the markup there is script that allows it to interact with the backend foreach loop -->
 <div class="container">
+
     <li class="box">
 
         <h3 class=""><?php echo $Value['Question']; ?></h3>
 
         <?php 
+// This is saying that for each of the values of the possible answers that it should assign a letter to it as it was written within the arrays
 
             foreach ($Value['Answers'] as $Letter => $Answer){ 
 
@@ -502,14 +475,17 @@ if (isset($_POST['answers'])){
     <?php } ?>
 
     <input type="submit" value="Submit Quiz" class="button is-success is-normal is-hovered"/>
- 
+    <br>
+    <br>
+    <br>
     </form>
-
+    
 <?php 
 
 }
 
 ?>
+
         </div>
     </body>
 </html>
