@@ -29,6 +29,10 @@ index.php
 
 <a href="https://gist.github.com/bramus/4f79972b1927ffb9b1f8">Right-Click and open this link in a new tab</a>
 
+# What was needed to create this project?
+
+*Take a Look below*
+
 > We were tasked to create a form and by using only loops for logic, we needed to check our answers. This was the first challenge within creating this project. I got around it by first plotting what was needed to be done and the logic behind it. Thus the use of:
 
 
