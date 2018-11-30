@@ -413,9 +413,11 @@ if (isset($_POST['answers'])){
         }; 
         if ($total > 10 && $total < 15) {
             echo "<p>You scored average results!</p>";
+            echo '<img src="images/average.jfif" />';
         };
         if ($total > 15) {
             echo "<p>Excellent! Are you perhaps related to Einstein?</p>";
+            echo '<img src="images/einstein.gif" />';
         };
 
 } else {
