@@ -4,34 +4,26 @@ You can view this project live here:
 
 https://reaganbeck.000webhostapp.com/index.php
 
-## The purpose for this repo was to create a quiz with php and demonstrate the use of loops to check/validate answers and tally a total of all the correct answers
+## The purpose for this project was to create a quiz with php and demonstrate the use of loops to check/validate answers and tally a total of all the correct answers
 
 ### Preparation:
 
->Create a folder structure/ work environment
+> Clone/Download this repository
 
-```
->Folder
-    >css
-        >yourstylesheethere.css
-    >images
-        >yourimage.png
-        >image-2
-index.php
-```
+
 ## Download the necessary software needed for building the project
 
-|*Software*| `What it is` | `Where to download`|
-|--------|:----------:|------------------|
-|vsCode or equivalent |Text Editor |<a href="https://code.visualstudio.com/download">VsCode Download</a>|
-|Wamp    |Server Hosting|<a href="https://sourceforge.net/projects/wampserver/">Wamp Download for Windows</a>|
-|Lamp    |        |<a href="https://bitnami.com/stack/lamp/installer">Lamp Download for Linux</a>|
-|Xampp   |        |<a href="https://www.apachefriends.org/download.html">Xamp Download for MacOsx</a>|
+> |*Software*| `What it is` | `Where to download`|
+> |--------|:----------:|------------------|
+> |vsCode or equivalent |Text Editor |<a href="https://code.visualstudio.com/download">VsCode Download</a>|
+> |Wamp    |Server Hosting|<a href="https://sourceforge.net/projects/wampserver/">Wamp Download for Windows</a>|
+> |Lamp    |        |<a href="https://bitnami.com/stack/lamp/installer">Lamp Download for Linux</a>|
+> |Xampp   |        |<a href="https://www.apachefriends.org/download.html">Xamp Download for MacOsx</a>|
 
 
 ## Set up a virtual host in wamp
 
-<a href="https://gist.github.com/bramus/4f79972b1927ffb9b1f8">Right-Click and open this link in a new tab</a>
+> <a href="https://gist.github.com/bramus/4f79972b1927ffb9b1f8">Right-Click and open this link in a new tab</a>
 
 ## What knowledge was needed to create this project?
 
@@ -72,7 +64,8 @@ In PHP we have the following conditional statements:
 The foreach loop works only on arrays, and is used to loop through each key/value pair in an array.
 
 ```
-For every loop iteration, the value of the current array element is assigned to $value and the array pointer is moved by one, until it reaches the last array element.
+For every loop iteration, the value of the current array element is assigned to $value and the array 
+pointer is moved by one, until it reaches the last array element.
 
 ```
 

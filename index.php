@@ -405,7 +405,8 @@ if (isset($_POST['answers'])){
 
 //Once your quiz has been submitted, the conditional statements will respond according to your result    
     echo "You got $total /20";
-    echo " ";
+    echo "<br/>";
+    echo "<br/>";
         if ($total <= 10) {
             echo "<p>You should try harder next time :( </p>
             </br>";
